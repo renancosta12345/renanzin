@@ -1,0 +1,93 @@
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(black, rgb(206, 8, 255),rgb(7, 7, 7));
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    padding: 5px;
+}
+
+.l1{
+    display: flex;
+}
+
+.l2{
+    display: flex;
+}
+
+.l3{
+    display: flex;
+}
+
+.l4{
+    display: flex;
+}
+
+table tr td{
+    border: 3px solid rgb(54, 60, 146);
+    padding: 3px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.D{
+    color: white;
+    background-color: red;
+}
+
+.D_F_RED{
+    color: red;
+}
+
+.mes{
+    background-color: silver;
+    font-size: 20px;
+}
+
+table{
+    padding: 10px;
+   width: 100%;
+}
+
+.semdia{
+    background-color: bisque;
+}
+
+@media (max-width: 480px) {
+    .caixa{
+        width: auto;
+    }
+
+    .l1{
+        display: inline-table;
+    }
+
+    .l2{
+        display: inline-table;
+    }
+    .l3{
+        display: inline-table;
+    }
+
+    .l4{
+        display: inline-table;
+    }
+
+}
